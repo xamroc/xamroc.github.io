@@ -33,3 +33,7 @@ header img {
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+
+.student-view {
+  max-height: 500px;
+}
