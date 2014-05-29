@@ -4,7 +4,19 @@ header img {
 }
 
 .student-hover {
+  transition: all 0.5s;
   margin: 1em 0 0.5em;
   width: 13em;
   height: 6em;
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.student-hover:hover {
+  transition: all 0.5s;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
