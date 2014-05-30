@@ -6,48 +6,48 @@ $(document).ready ->
 
   $('#hover-alex').on 'click', ->
     hide_profile()
-    $('#profile-alex').show()
+    $('#profile-alex').fadeIn('slow')
 
   $('#hover-annie').on 'click', ->
     hide_profile()
-    $('#profile-annie').show()
+    $('#profile-annie').fadeIn('slow')
 
   $('#hover-charlie').on 'click', ->
     hide_profile()
-    $('#profile-charlie').show()
+    $('#profile-charlie').fadeIn('slow')
 
   $('#hover-christian').on 'click', ->
     hide_profile()
-    $('#profile-christian').show()
+    $('#profile-christian').fadeIn('slow')
 
   $('#hover-joseph').on 'click', ->
     hide_profile()
-    $('#profile-joseph').show()
+    $('#profile-joseph').fadeIn('slow')
 
   $('#hover-julie').on 'click', ->
     hide_profile()
-    $('#profile-julie').show()
+    $('#profile-julie').fadeIn('slow')
 
   $('#hover-leo').on 'click', ->
     hide_profile()
-    $('#profile-leo').show()
+    $('#profile-leo').fadeIn('slow')
 
   $('#hover-mark').on 'click', ->
     hide_profile()
-    $('#profile-mark').show()
+    $('#profile-mark').fadeIn('slow')
 
   $('#hover-mu-wah').on 'click', ->
     hide_profile()
-    $('#profile-mu-wah').show()
+    $('#profile-mu-wah').fadeIn('slow')
 
   $('#hover-nigel').on 'click', ->
     hide_profile()
-    $('#profile-nigel').show()
+    $('#profile-nigel').fadeIn('slow')
 
   $('#hover-simon').on 'click', ->
     hide_profile()
-    $('#profile-simon').show()
+    $('#profile-simon').fadeIn('slow')
 
   $('#hover-victor').on 'click', ->
     hide_profile()
-    $('#profile-victor').show()
+    $('#profile-victor').fadeIn('slow')
