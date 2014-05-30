@@ -3,17 +3,17 @@ header img {
   width: 14em;
 }
 
-.hovers-container {
+.reel-container {
   height: 500px;
 }
 
-.hovers {
+.reel {
   height: 100%;
   width: 100%;
   overflow: scroll;
 }
 
-.hovers::-webkit-scrollbar {
+.reel::-webkit-scrollbar {
   display: none;
 }
 
