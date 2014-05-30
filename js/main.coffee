@@ -2,6 +2,18 @@ hide_profile = ->
   $('.profile').hide()
 
 $(document).ready ->
+
+  navbar = $(".navbar")
+  header_height = $('header').height()
+
+  $(window).scroll ->
+    if $(this).scrollTop() > header_height
+      navbar.removeClass 'navbar-static-top'
+      navbar.addClass 'navbar-fixed-top'
+    else
+      navbar.removeClass 'navbar-fixed-top'
+      navbar.addClass 'navbar-static-top'
+
   hide_profile()
 
   $('#hover-alex').on 'click', ->
