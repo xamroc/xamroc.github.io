@@ -1,6 +1,10 @@
-header img {
-  margin: 1em 0 0.5em;
-  width: 14em;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar {
+  text-align: center;
 }
 
 .reel-container {
