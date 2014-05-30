@@ -8,11 +8,9 @@ $(document).ready ->
 
   $(window).scroll ->
     if $(this).scrollTop() > header_height
-      navbar.removeClass 'navbar-static-top'
-      navbar.addClass 'navbar-fixed-top'
+      navbar.addClass 'sticky'
     else
-      navbar.removeClass 'navbar-fixed-top'
-      navbar.addClass 'navbar-static-top'
+      navbar.removeClass 'sticky'
 
   hide_profile()
 
