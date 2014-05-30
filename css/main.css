@@ -37,3 +37,12 @@ header img {
 .student-view {
   max-height: 500px;
 }
+
+.desc-wrap {
+  min-height: 400px;
+}
+
+
+.links img {
+  max-width: 3em;
+}

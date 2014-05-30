@@ -1,6 +1,9 @@
 hide_profile = ->
   $('.profile').hide()
 
+
+
+
 $(document).ready ->
   hide_profile()
 
