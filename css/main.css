@@ -1,3 +1,21 @@
+.scroll-text {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+.scroll-text ul {
+  width: 300px;
+  height: 1440px;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.scroll-text ul li {
+  width: 300px;
+  height: 120px;
+}
+
 * {
   box-sizing: border-box;
 }

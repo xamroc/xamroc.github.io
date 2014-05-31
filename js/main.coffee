@@ -14,6 +14,13 @@ $(document).ready ->
 
   hide_profile()
 
+  $('#demo1').scrollbox({
+    linear: true,
+    step: 1,
+    delay: 0,
+    speed: 50
+  })
+
   $('#hover-alex').on 'click', ->
     hide_profile()
     $('#profile-alex').fadeIn('slow')
