@@ -18,10 +18,21 @@ $(document).ready ->
 
   $('#scroll').scrollbox({
     linear: true,
-    step: 1,
     delay: 0,
-    speed: 50
+    speed: 25,
+    autoPlay: false,
+    onMouseOverPause: false
   })
+
+  $('.slide-up').mouseover ->
+    $('#scroll').trigger 'backwardHover'
+  .mouseout ->
+    $('#scroll').trigger 'pauseHover'
+
+  $('.slide-down').mouseover ->
+    $('#scroll').trigger 'forwardHover'
+  .mouseout ->
+    $('#scroll').trigger 'pauseHover'
 
   # End of Scrollbox
 
