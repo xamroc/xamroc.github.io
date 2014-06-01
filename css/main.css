@@ -60,6 +60,10 @@ header {
 
 /*End of Scroll*/
 
+.students .container {
+  margin: 0;
+}
+
 .student-hover {
   transition: all 0.5s;
   width: 300px;
