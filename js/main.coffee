@@ -3,6 +3,8 @@ hide_profile = ->
 
 $(document).ready ->
 
+  hide_profile()
+
   navbar = $(".navbar")
   header_height = $('header').height()
 
@@ -12,7 +14,7 @@ $(document).ready ->
     else
       navbar.removeClass 'sticky'
 
-  hide_profile()
+  # Scrollbox
 
   $('#scroll').scrollbox({
     linear: true,
@@ -20,6 +22,8 @@ $(document).ready ->
     delay: 0,
     speed: 50
   })
+
+  # End of Scrollbox
 
   $('#hover-alex').on 'click', ->
     hide_profile()
