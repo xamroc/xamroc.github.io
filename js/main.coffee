@@ -14,7 +14,7 @@ $(document).ready ->
 
   hide_profile()
 
-  $('#demo1').scrollbox({
+  $('#scroll').scrollbox({
     linear: true,
     step: 1,
     delay: 0,
