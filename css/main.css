@@ -44,6 +44,23 @@ header {
   padding: 0;
 }
 
+.scroll-wrapper {
+  height: 500px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.scroll-content {
+  height: 100%;
+  width: 315px;
+  overflow: auto;
+}
+
+.scroll-content ul {
+  padding: 0;
+  list-style-type: none;
+}
+
 /*End of Scroll*/
 
 .students .container {
