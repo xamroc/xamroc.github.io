@@ -45,6 +45,7 @@ $.fn.scrollbox = function(config) {
         scrollForward,
         scrollBackward,
         forwardHover,
+        backwardHover,
         pauseHover;
 
     if (config.onMouseOverPause) {
@@ -151,6 +152,13 @@ $.fn.scrollbox = function(config) {
         clearInterval(scrollingId);
         scrollingId = setInterval(scrollForward, config.speed);
     };
+
+    backwardHover = function() {
+        config.autoPlay = true;
+        paused = false;
+        clearInterval(scrollingId);
+        scrollingId = setInterval(scrollBackward, config.speed);
+    };
     pauseHover = function() {
         paused = true;
     };
@@ -177,6 +185,7 @@ $.fn.scrollbox = function(config) {
     container.bind('forward', function() { clearTimeout(nextScrollId); forward(); });
     container.bind('pauseHover', function() { pauseHover(); });
     container.bind('forwardHover', function() { forwardHover(); });
+    container.bind('backwardHover', function() { backwardHover(); });
     container.bind('backward', function() { clearTimeout(nextScrollId); backward(); });
     container.bind('speedUp', function(speed) {
       if (typeof speed === 'undefined') {
