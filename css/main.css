@@ -54,6 +54,7 @@ header {
   height: 100%;
   width: 315px;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .scroll-content ul {
