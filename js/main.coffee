@@ -4,6 +4,7 @@ hide_profile = ->
 $(document).ready ->
 
   hide_profile()
+  $('#profile-alex').fadeIn 'slow'
 
   navbar = $(".navbar")
   header_height = $('header').height()
