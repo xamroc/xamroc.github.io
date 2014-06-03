@@ -66,7 +66,7 @@ header {
   height: 60px;
   width: 300px;
   z-index: 500;
-  border: solid red;
+  /*border: solid red;*/
 }
 
 .scroll-down {
