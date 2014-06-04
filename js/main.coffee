@@ -3,6 +3,8 @@ hide_profile = ->
 
 $(document).ready ->
 
+  # Init
+
   hide_profile()
   $('#profile-alex').fadeIn 'slow'
 
