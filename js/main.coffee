@@ -7,9 +7,9 @@ $(document).ready ->
   $('#profile-alex').fadeIn 'slow'
 
   navbar = $(".navbar")
-  header_height = $('header').height()
 
   $(window).scroll ->
+    header_height = $('.full-width').height()
     if $(this).scrollTop() > header_height
       navbar.addClass 'sticky'
     else
