@@ -58,7 +58,7 @@
   border-bottom: 1px solid rgba(69,78,92,0.5);
   /*border-top: 1px solid rgba(69,78,92,0.5);*/
   top: 0;
-  width: 500px;
+  width: 450px;
   z-index: -1;
 }
 
@@ -70,6 +70,10 @@
 .fancy span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+.tech-stack img {
+  max-width: 200px;
 }
 
 /*Scroll*/
