@@ -28,13 +28,9 @@
 
 /*End of Navbar*/
 
-.main {
-  padding: 50px 50px 50px;
-  width: 100%;
-}
-
 .main .row {
   padding-top: 50px;
+  text-align: center;
 }
 
 .fancy {
