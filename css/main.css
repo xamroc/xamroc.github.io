@@ -70,6 +70,7 @@
 
 .about-desc {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .tech-stack img {
@@ -102,14 +103,19 @@
 
 .scroll-up, .scroll-down {
   position: absolute;
-  height: 60px;
+  height: 30px;
   width: 300px;
   z-index: 500;
   /*border: solid red;*/
 }
 
+.scroll-up {
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 90%);
+}
+
 .scroll-down {
   bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 90%);
 }
 
 /*End of Scroll*/
