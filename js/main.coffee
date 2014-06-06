@@ -11,7 +11,7 @@ $(document).ready ->
   navbar = $(".navbar")
 
   $(window).scroll ->
-    header_height = $('.full-width').height()
+    header_height = $('.header_title').height()
     if $(this).scrollTop() > header_height
       navbar.addClass 'sticky'
     else
@@ -46,7 +46,8 @@ $(document).ready ->
 
   $('#hover-alex').on 'click', ->
     hide_profile()
-    $('#profile-alex').fadeIn 'slow'
+    $('#alex-desc').fadeIn 'slow'
+    # $('#alex-img').toggle 'slide', {direction: 'right'}
 
   $('#hover-annie').on 'click', ->
     hide_profile()
