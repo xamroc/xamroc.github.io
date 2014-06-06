@@ -68,9 +68,11 @@
   margin-left: 15px;
 }
 
-.about-desc {
+.about-desc p {
   max-width: 800px;
   margin: 0 auto;
+  padding: 18px;
+  text-align: justify !important;
 }
 
 .tech-stack img {
@@ -145,8 +147,10 @@
   max-height: 500px;
 }
 
-.desc-wrap {
+.desc-wrap p {
   min-height: 400px;
+  text-align: justify;
+  padding: 18px;
 }
 
 .links img {
@@ -155,4 +159,8 @@
 
 .instructors img {
   max-height: 196px;
+}
+
+.instructors p {
+  text-align: justify;
 }
