@@ -136,7 +136,8 @@
 
 .scroll-down {
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 90%);
+  /*background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 90%);*/
+  margin-bottom: 10px;
 }
 
 /*End of Scroll*/
@@ -167,7 +168,7 @@
 }
 
 .desc-wrap p {
-  min-height: 400px;
+  min-height: 350px;
   text-align: justify;
   padding: 18px;
 }
