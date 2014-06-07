@@ -2,15 +2,19 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: black;
+}
+
 .full-width {
   width: 100%;
 }
 
-.header_title {
+.header-title {
   text-align: center;
 }
 
-.header_title img {
+.header-title img {
   width: 400px;
   padding-top: 30px;
   padding-bottom: 30px;

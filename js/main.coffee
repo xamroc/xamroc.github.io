@@ -11,7 +11,7 @@ $(document).ready ->
   navbar = $(".navbar")
 
   $(window).scroll ->
-    header_height = $('.header_title').height()
+    header_height = $('.header-title').height()
     if $(this).scrollTop() > header_height
       navbar.addClass 'sticky'
     else
