@@ -46,7 +46,7 @@ $(document).ready ->
 
   $('#hover-alex').on 'click', ->
     hide_profile()
-    $('#alex-desc').fadeIn 'slow'
+    $('#profile-alex').fadeIn 'slow'
     # $('#alex-img').toggle 'slide', {direction: 'right'}
 
   $('#hover-annie').on 'click', ->
