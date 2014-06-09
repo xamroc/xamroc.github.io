@@ -160,6 +160,13 @@ h2 {
   filter: grayscale(100%);
 }
 
+.selected {
+  transition: all 0.5s;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 .student-hover:hover {
   transition: all 0.5s;
   -webkit-filter: grayscale(0%);
@@ -169,6 +176,7 @@ h2 {
 
 .student-view {
   max-height: 500px;
+  box-shadow: 10px 10px 10px;
 }
 
 .desc-wrap p {
