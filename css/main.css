@@ -3,7 +3,7 @@
 }
 
 h2 {
-  color: black;
+  color: hsla(0, 0%, 0%, 1);
 }
 
 .full-width {
@@ -64,7 +64,7 @@ h2 {
 .fancy span {
   display: inline-block;
   position: relative;  
-  color: rgba(69,78,92,0.5);
+  color: hsla(217, 14%, 32%, 0.5);
   font-family: 'sans-serif';
   font-size: 18px;
 }
@@ -74,8 +74,7 @@ h2 {
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1px solid rgba(69,78,92,0.5);
-  /*border-top: 1px solid rgba(69,78,92,0.5);*/
+  border-bottom: 1px solid hsla(217, 14%, 32%, 0.5);
   top: 0;
   width: 300px;
   z-index: -1;
@@ -131,16 +130,15 @@ h2 {
   height: 30px;
   width: 300px;
   z-index: 500;
-  /*border: solid red;*/
 }
 
 .scroll-up {
-  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 90%);
+  background: linear-gradient(hsla(0, 0%, 0%, 0.4) 0%, hsla(0, 0%, 0%, 0) 90%);
 }
 
 .scroll-down {
   bottom: 0;
-  /*background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 90%);*/
+  /*background: linear-gradient(hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.4) 90%);*/
   margin-bottom: 10px;
 }
 
@@ -202,7 +200,7 @@ h2 {
   padding: 10px;
   font-family: "brandon-grotesque";
   color: black;
-  background: #f7e753;
+  background: hsla(54, 91%, 65%, 1);
   text-align: center;
   vertical-align: middle;
   border-top-left-radius: 10px;
