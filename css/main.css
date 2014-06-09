@@ -180,6 +180,7 @@ h2 {
 .desc-wrap p {
   min-height: 350px;
   text-align: justify;
+  font-style: italic;
   padding: 18px;
 }
 
