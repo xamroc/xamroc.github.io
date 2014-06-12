@@ -9,6 +9,8 @@ $(document).ready ->
   hide_profile()
   $('#profile-alex').fadeIn 'slow'
 
+  # End of Init
+
   navbar = $(".navbar")
 
   $(window).scroll ->
@@ -18,38 +20,10 @@ $(document).ready ->
     else
       navbar.removeClass 'sticky'
 
-  # Scroll
-
-  interval = null
-
-  $('.scroll-up').on('mouseover', ->
-    scroll = $('.scroll-content')
-
-    interval = setInterval ->
-      pos = scroll.scrollTop()
-      scroll.scrollTop(pos - 5)
-    , 20
-  ).on 'mouseout', ->
-    clearInterval interval
-
-  $('.scroll-down').on('mouseover', ->
-    scroll = $('.scroll-content')
-
-    interval = setInterval ->
-      pos = scroll.scrollTop()
-      scroll.scrollTop(pos + 5)
-    , 20
-  ).on 'mouseout', ->
-    clearInterval interval
-
-
-  # End of Scroll
-
   $('#hover-alex').on 'click', ->
     hide_profile()
     $('#profile-alex').fadeIn 'slow'
     $(this).addClass 'selected'
-    # $('#alex-img').toggle 'slide', {direction: 'right'}
 
   $('#hover-annie').on 'click', ->
     hide_profile()

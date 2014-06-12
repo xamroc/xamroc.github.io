@@ -6,10 +6,6 @@ h2 {
   color: hsla(0, 0%, 0%, 1);
 }
 
-.full-width {
-  width: 100%;
-}
-
 .header-title {
   text-align: center;
 }
@@ -32,13 +28,13 @@ h2 {
   margin-bottom: 0;
 }
 
-.navbar-nav > li > a {
-  padding-bottom: 0;
-}
-
 .nav > li > a {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.navbar-nav > li > a {
+  padding-bottom: 0;
 }
 
 .sticky {
@@ -46,7 +42,6 @@ h2 {
   width: 100%;
   top: 0;
   z-index: 9999;
-  /*border-top: 0;*/
 }
 
 /*End of Navbar*/
