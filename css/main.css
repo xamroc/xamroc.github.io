@@ -16,36 +16,6 @@ h2 {
   padding-bottom: 30px;
 }
 
-/*Navbar*/
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.navbar {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.nav > li > a {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.navbar-nav > li > a {
-  padding-bottom: 0;
-}
-
-.sticky {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
-
-/*End of Navbar*/
-
 .main .row {
   padding-top: 50px;
   text-align: center;
@@ -85,6 +55,38 @@ h2 {
   margin-left: 15px;
 }
 
+/*Navbar*/
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.nav > li > a {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-nav > li > a {
+  padding-bottom: 0;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+/*End of Navbar*/
+
+/*About*/
+
 .about-desc p {
   max-width: 800px;
   margin: 0 auto;
@@ -95,6 +97,8 @@ h2 {
 .tech-stack img {
   max-width: 600px;
 }
+
+/*End of About*/
 
 /*Scroll*/
 
@@ -139,6 +143,8 @@ h2 {
 
 /*End of Scroll*/
 
+/*Student Profile Area*/
+
 .students .container {
   margin: 0;
 }
@@ -153,15 +159,14 @@ h2 {
   filter: grayscale(100%);
 }
 
-.selected {
+.student-hover:hover {
   transition: all 0.5s;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 
-.student-hover:hover {
-  transition: all 0.5s;
+.selected {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -183,6 +188,10 @@ h2 {
   max-width: 3em;
 }
 
+/*End of Student Profile Area*/
+
+/*Instructors*/
+
 .instructors img {
   max-height: 196px;
 }
@@ -190,6 +199,10 @@ h2 {
 .instructors p {
   text-align: justify;
 }
+
+/*End of Instructors*/
+
+/*Footer*/
 
 .footer {
   margin-top: 50px;
